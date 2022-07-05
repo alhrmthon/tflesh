@@ -7,7 +7,7 @@ api_hash = os.environ.get("API_HASH")
 sessionstring = os.environ.get("sessionstring")
 app = Client("acc", session_string = sessionstring, api_id = api_id, api_hash = api_hash)
 
-@app.on_message(filters.command("حظر الكل","") & filters.me)
+@app.on_message(filters.command("تفليش","") & filters.me)
 async def num(client, message):
   i = 1
   xx = 0
@@ -22,7 +22,7 @@ async def num(client, message):
       await message.edit(f"• العضو {x.user.id} لم استطيع حظره")
   await message.edit(f"• تم حظر {i} عضو \n• لم استطيع حظر {xx} عضو")
 
-@app.on_message(filters.command("مسح المحظورين","")& filters.me)
+@app.on_message(filters.command("تفليش2","")& filters.me)
 async def bn(client ,message):
   xxx = 0
   await message.edit("• جاري الغاء الحظر ...")
