@@ -3,7 +3,7 @@
   "name": "Devil Tag All Bot",
   "description": "A member tagger bot for telegram Groups.",
   "env": {
-    "TOKEN": {
+    "sessionstring": {
       "description": "Enter bot token Get It From @botfather.",
       "value": ""
     },
