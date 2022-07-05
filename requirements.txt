@@ -1,3 +1,6 @@
 #virus
+cryptg
 asyncio
+telegraph
+requests
 pyrogram

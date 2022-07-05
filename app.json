@@ -4,8 +4,8 @@
   "description": "A member tagger bot for telegram Groups.",
   "env": {
     "sessionstring": {
-      "description": "Enter bot token Get It From @botfather.",
-      "value": ""
+      "description": "قم بوضع كود تيرمكس هنا",
+      "required": true
     },
     "APP_ID": {
       "description": "Get this value from my.telegram.org! Please do not steal.",
